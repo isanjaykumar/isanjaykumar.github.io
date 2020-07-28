@@ -1,0 +1,40 @@
+/* Sanjay Kumar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.social>li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.social>li:last-of-type {
+  margin-right: 0;
+}
+
+.header {
+  justify-content: space-around;
+  height: 200px;
+}
+
+.about {
+  justify-content: space-around;
+  height: 200px;
+}
+
+.skills {
+  justify-content: space-around;
+  height: 200px;
+}
