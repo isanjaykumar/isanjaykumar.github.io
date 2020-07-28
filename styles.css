@@ -5,31 +5,34 @@
   box-sizing: border-box;
 }
 
-
-.menu-container {
-  border: 1px solid;
+.container {
   height: 100px;
   width: 100%;
+  background-color: #263238;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
 
+.home,
+.social {
+  background-color: #00e5ff;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .social>li {
   display: inline;
   margin-right: 5px;
 }
 
-.header-container {
-  border: 1px solid;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+.hello,
+.i,
+.sanjay {
+  background-color: #e55350;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .i {
@@ -37,28 +40,10 @@
   right: 15px;
 }
 
-.about-container {
-  border: 1px solid;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
-
-.skills-container {
-  border: 1px solid;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
-
-.skills>li {
-  display: inline;
+.about {
+  background-color: #00897b;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .skills {
@@ -67,12 +52,26 @@
   justify-content: space-between;
 }
 
-.contact-container {
-  border: 1px solid;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+.html {
+  background-color: #ff9800;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.css{
+  background-color: #2196f3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.js {
+  background-color: #ffeb3b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: #9575cd;
+  padding: 10px;
+  border-radius: 5px;
 }
