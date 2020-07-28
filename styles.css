@@ -6,6 +6,73 @@
 }
 
 
-.mneu-container {
-  
+.menu-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.social>li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.header-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.i {
+  position: relative;
+  right: 15px;
+}
+
+.about-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.skills-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.skills>li {
+  display: inline;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 }
