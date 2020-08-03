@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  height: 100px;
+  height: 200px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,6 +36,10 @@ body {
   margin-right: 5px;
 }
 
+.header {
+  justify-content: center;
+}
+
 .hello,
 .i {
   padding: 10px;
@@ -52,25 +56,20 @@ body {
 .skills {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.html {
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #fff;
-}
-
-.css{
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #fff;
-}
-
+.html,
+.css,
 .js {
   padding: 10px;
   color: #fff;
   border: 2px solid #fff;
+}
+
+
+.connect {
+  justify-content: center;
 }
 
 .contact {
