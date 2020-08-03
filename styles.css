@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+height: 100%;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .container {
   height: 100px;
   width: 100%;
-  background-color: #263238;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,9 +26,9 @@
 
 .home,
 .social {
-  background-color: #00e5ff;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .social>li {
@@ -27,22 +37,16 @@
 }
 
 .hello,
-.i,
-.sanjay {
-  background-color: #e55350;
-  padding: 10px;
-  border-radius: 5px;
-}
-
 .i {
-  position: relative;
-  right: 15px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .about {
-  background-color: #00897b;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .skills {
@@ -52,25 +56,25 @@
 }
 
 .html {
-  background-color: #ff9800;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .css{
-  background-color: #2196f3;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .js {
-  background-color: #ffeb3b;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .contact {
-  background-color: #9575cd;
   padding: 10px;
-  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
 }
